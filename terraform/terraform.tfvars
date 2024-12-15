@@ -1,0 +1,6 @@
+location           = "westeurope"
+resource_group_name = "my-resource-group"
+admin_username     = "adminuser"
+admin_password     = "YourStrongPassword123!"
+resource_group_name_prefix = "my-prefix"
+resource_group_id          = "/subscriptions/{subscription_id}/resourceGroups/{resource_group_name}"
