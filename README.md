@@ -19,7 +19,7 @@ Terraform-prosjekt som oppretter en VM med webtjeneste og 2 VM med database i la
 ### Nedlastning og oppsett
 
 1. **NEDLASTNING**:
-- Last ned mappen **`terraform`** og pakk ut
+- Last ned prosjektet som zip og pakk ut.
 2. **ENDRINGER**
 - Gjør nødvendige endringer i **`terraform/variables.tfvars`**
 3. **KJØRE TERRAFORM VIA POWERSHELL**
