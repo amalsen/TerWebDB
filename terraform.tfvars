@@ -6,7 +6,7 @@ admin_password = "Passord123" # Sett til et passende passord (må endres til lik
 # VM-størrelser
 web_vm_size = "Standard_B1s"
 db_vm_size  = "Standard_B1ms"
-install_script_url = "mariadbinstall5"
+install_script_url = "mariadbinstall5" # Endres om det er en feilmelding om navnekonflikt for storage account oppstår
 
 # Nettverk
 vnet_name = "vnet" # Navnet på det virtuelle nettverket
