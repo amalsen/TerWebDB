@@ -85,6 +85,7 @@ TerWebDB/
   ssh <admin_username>@<IP-adressen til VM>
   <admin_username>@<IP-adressen til VM> password: <admin_password>
   ```
+- VMene til DB har som standard IP-adressene `10.0.0.5` og `10.0.0.6`.
 5. **ELIMINERE RESSURSER ETTER OPPSETT**
 - Plan og apply destroy for prosjektet:
   ```powershell
