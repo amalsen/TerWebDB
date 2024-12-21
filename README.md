@@ -41,8 +41,8 @@ TerWebDB/
 - **`variables.tf`**: Definerer variabler
 - **`variables.tfvars`**: Variabler ment til å endres av bruker
 - **`modules/db-install/scripts/`**: Scripts brukt i prosjektet
-- **`install_mariadb.sh`**: Installasjon og konfigurering av MariaDB for DB-serverne
-- **`playbook.yml`**: Ansible-playbook for konfigurasjon av webserver
+  - **`install_mariadb.sh`**: Installasjon og konfigurering av MariaDB for DB-serverne
+  - **`playbook.yml`**: Ansible-playbook for konfigurasjon av webserver
 
 ## Instruksjoner for oppsett
 
