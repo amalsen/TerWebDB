@@ -4,6 +4,39 @@ Terraform-prosjekt som oppretter en VM med webtjeneste og 2 VM med database i la
 
 ## Struktur
 
+### Mappestruktur
+
+```
+TerWebDB/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── provider.tf
+└── modules/
+    ├── network/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    ├── vm/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    ├── loadbalancer/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    └── db-install/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+        └── scripts/
+            ├── install_mariadb.sh
+            └── playbook.yml
+```
+
+### Viktige filer
+
 - **`main.tf`**: Hovedkonfigurasjonsfilen
 - **`variables.tf`**: Definerer variabler
 - **`variables.tfvars`**: Variabler ment til å endres av bruker
