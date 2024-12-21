@@ -66,7 +66,7 @@ TerWebDB/
   ```powershell
   cd <stien til Terraform-mappen>
   az login
-  terraform init
+  terraform init -upgrade
   terraform plan -out main.tfplan
   terraform apply main.tfplan
   ```
